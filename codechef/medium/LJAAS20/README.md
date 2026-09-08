@@ -4,23 +4,47 @@
 
 ## Problem
 
-_Description not available._
+### Print Squares
+
+Write a program to output the squares (using multiplication) of numbers from 1 to 5 on separate lines.
+
+### Sample 1:
+Input
+Output
+
+```
+
+```
+
+```
+1 - 1
+2 - 4
+3 - 9
+4 - 16
+5 - 25
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-08T11:19:48.946Z  
+**Submitted:** 2026-09-08T11:23:23.099Z  
 
 ```java
-public class Main {
-    public static void main(String[] args) {
-        // Your code here
-        System.out.println("I");
-        System.out.println("love");
-        System.out.println("CodeChef");
-    }
+class Codechef
+{
+	public static void main (String[] args) 
+	{
+		// your code goes here
+		System.out.println("1-"+(1*1));
+		System.out.println("2-"+(2*2));
+		System.out.println("3-"+(3*3));
+		System.out.println("4-"+(4*4));
+		System.out.println("5-"+(5*5));
+		
+
+	}
 }
 
 ```
